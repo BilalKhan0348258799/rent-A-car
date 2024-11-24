@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 
 export default function Home() {
@@ -31,21 +30,21 @@ export default function Home() {
         </h2>
         <div className="flex flex-wrap justify-center gap-8">
           <div className="max-w-sm p-6 bg-white rounded-lg shadow-md">
-            {/* <Image src="/car-icon.png" alt="Wide Range" width={50} height={50} /> */}
+            <Image src="/car-icon.png" alt="Wide Range" width={50} height={50} />
             <h3 className="text-2xl font-semibold mt-4">Wide Range of Cars</h3>
             <p className="mt-2 text-gray-600">
               Choose from sedans, SUVs, luxury cars, and more.
             </p>
           </div>
           <div className="max-w-sm p-6 bg-white rounded-lg shadow-md">
-            {/* <Image src="/dollar-icon.png" alt="Affordable" width={50} height={50} /> */}
+            <Image src="/dollar-icon.png" alt="Affordable" width={50} height={50} />
             <h3 className="text-2xl font-semibold mt-4">Affordable Prices</h3>
             <p className="mt-2 text-gray-600">
               Competitive rates with no hidden charges.
             </p>
           </div>
           <div className="max-w-sm p-6 bg-white rounded-lg shadow-md">
-            {/* <Image src="/security-icon.png" alt="Reliable" width={50} height={50} /> */}
+            <Image src="/security-icon.png" alt="Reliable" width={50} height={50} />
             <h3 className="text-2xl font-semibold mt-4">Reliable & Secure</h3>
             <p className="mt-2 text-gray-600">
               24/7 customer support and full insurance coverage.
